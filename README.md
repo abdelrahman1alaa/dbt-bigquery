@@ -13,16 +13,18 @@ This project demonstrates how to **integrate dbt (Data Build Tool) with Google B
 ## 📂 Project Structure  
 The project is organized as follows:
 
-models/ - Contains dbt models for transformation
-staging/ - Raw data staging models
-marts/ - Final transformed models
-macros/ - Reusable Jinja macros
-seeds/ - Static CSV data for dbt seeds
-dbt_project.yml - dbt project configuration
-profiles.yml - dbt BigQuery credentials (not included for security reasons)
-README.md - Project documentation
-.gitignore - Specifies files to be excluded from GitHub
+```
+models/              - Contains dbt models for transformation
+staging/             - Raw data staging models
+marts/               - Final transformed models
+macros/              - Reusable Jinja macros
+seeds/               - Static CSV data for dbt seeds
+dbt_project.yml/     - dbt project configuration
+profiles.yml/        - dbt BigQuery credentials (not included for security reasons)
+README.md/           - Project documentation
+.gitignore/          - Specifies files to be excluded from GitHub
 
+```
 
 ## Technologies Used  
 

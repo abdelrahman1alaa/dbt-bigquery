@@ -1,0 +1,6 @@
+
+target/
+dbt_packages/
+logs/
+# Google Cloud Service Account Key
+google_key.json

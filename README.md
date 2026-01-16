@@ -54,9 +54,9 @@ Update profiles.yml (ensure it contains your BigQuery project details)
 Authenticate with GCP:
 
 ```sh
-gcloud auth application-default login
+gcloud auth application-default login.
 or
-use Google Cloud Console - Service Accounts.
+use Google Cloud Console - Service Accounts. (best way)
 ```
 
 Run dbt Models
